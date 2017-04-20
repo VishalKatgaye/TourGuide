@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/no_dp"
+        android:layout_weight="6"
+        android:background="?attr/selectableItemBackground">
+
+        <ImageView
+            android:id="@+id/place_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:scaleType="fitXY" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/place_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="start"
+                android:layout_margin="@dimen/low"
+                android:shadowColor="@android:color/black"
+                android:shadowDx="-2"
+                android:shadowDy="-2"
+                android:shadowRadius="3"
+                android:text="Title"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/medium_text"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/share_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/low"
+                android:background="@drawable/selectable_button_bg"
+                android:src="@drawable/ic_mail" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/timing"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/no_dp"
+        android:layout_weight="2"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/very_low"
+            android:layout_marginLeft="@dimen/low"
+            android:layout_marginRight="@dimen/low"
+            android:layout_marginTop="@dimen/very_low"
+            android:background="@color/places_color"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/no_dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/timing"
+                android:textAlignment="center"
+                android:textSize="@dimen/low_text" />
+
+            <TextView
+                android:id="@+id/time_view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/no_dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textSize="@dimen/low_text"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/no_dp"
+        android:layout_weight="4"
+        android:background="@color/light_green">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/normal">
+
+            <TextView
+                android:id="@+id/place_information"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/normal"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center_vertical"
+                android:padding="@dimen/normal"
+                android:text="@string/ambagarh_fort_info"
+                android:textColor="@android:color/white"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/normal_text"
+                android:textStyle="italic" />
+        </FrameLayout>
+    </ScrollView>
+</LinearLayout>

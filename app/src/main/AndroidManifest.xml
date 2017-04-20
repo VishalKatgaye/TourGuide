@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vishalkatgaye.tourguide">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"></activity>
+
+        <activity
+            android:name=".restaurant.RanatBhavarActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"></meta-data>
+        </activity>
+
+        <activity
+            android:name=".restaurant.AppleActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"></meta-data>
+        </activity>
+
+        <activity
+            android:name=".restaurant.TuliSuitActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"></meta-data>
+        </activity>
+
+        <activity
+            android:name=".restaurant.RoyalPlazaActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"></meta-data>
+        </activity>
+
+        <activity
+            android:name=".restaurant.KambhojActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"></meta-data>
+        </activity>
+
+        <activity
+            android:name=".shopping.GandhiChaukActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"></meta-data>
+        </activity>
+
+        <activity
+            android:name=".shopping.SainathActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"></meta-data>
+        </activity>
+
+        <activity
+            android:name=".shopping.SindhiLaneActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"></meta-data>
+        </activity>
+
+        <activity
+            android:name=".travelling.AndhalgaonActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"></meta-data>
+        </activity>
+
+        <activity
+            android:name=".travelling.GaimukhActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"></meta-data>
+        </activity>
+
+        <activity
+            android:name=".travelling.IndirasagarActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"></meta-data>
+        </activity>
+
+        <activity
+            android:name=".travelling.RawanvadiActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"></meta-data>
+        </activity>
+
+        <activity
+            android:name=".historical_places.AmbagarhActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"></meta-data>
+        </activity>
+
+        <activity
+            android:name=".historical_places.OldBridgeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"></meta-data>
+        </activity>
+
+        <activity
+            android:name=".historical_places.PandeMahalActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"></meta-data>
+        </activity>
+
+        <activity
+            android:name=".historical_places.SangadiFortActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"></meta-data>
+        </activity>
+
+        <activity
+            android:name=".forest.KokaActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"></meta-data>
+        </activity>
+
+        <activity
+            android:name=".forest.NagziraActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.ActionBar.Transparent"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ForestActivity"></meta-data>
+        </activity>
+    </application>
+</manifest>

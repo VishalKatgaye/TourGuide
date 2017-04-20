@@ -1,0 +1,218 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+
+    <!-- Title Message-->
+    <string name="welcome_message">Welcome To <b>Bhandara Area</b>\n Tour Guide!</string>
+
+    <string name="timing">Timing</string>
+
+    <!-- City name-->
+    <string name="bhandara">Bhandara</string>
+
+    <!-- Place Names-->
+    <string name="home">Home</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="forest">Forest</string>
+    <string name="historical_place">Historical Places</string>
+    <string name="travel">Travelling Places</string>
+    <string name="shop">Shopping</string>
+
+    <!-- Restaurant Type-->
+    <string name="veg">Vegetarian</string>
+    <string name="non_veg">Non-Vegetarian</string>
+    <string name="veg_non_veg">Vegetarian and Non-Vegetarian</string>
+
+    <!-- Restaurant Title and information -->
+    <string name="apple_restaurent">Apple Restaurant</string>
+    <string name="apple_restaurant_info">
+        Cuisine: Vegetarian and Non-Vegetarian \n\n
+        Apple Restaurant is situated beside National Highway No. 6,
+        at Lakhani. It is near about 13 miles away from Bhandara, Maharashtra.\n\n
+        It is multi cuisine restaurant with varieties of Indian Food,
+        as well as Chinese food.\n\n
+        It is cheap in  price, but it has good quality food.
+    </string>
+    <string name="apple_timing">
+        Working Days : Everyday\t
+         11.00 AM to 11.00 PM.
+    </string>
+
+    <string name="ranat_bhavar">Ranat Bhavar</string>
+    <string name="ranat_bhavar_info">
+        Cuisine: Vegetarian \n\n
+        Ranat Bhavar is situated beside N.H.06 in Bhandara. It is famous Vegetarian Restaurant for indian food in bhandara.\n\n
+        It has good service, in affordable price.
+    </string>
+    <string name="ranat_bhavar_timing">
+        Working Days: Everyday\t
+        09.00 AM to 09.00 PM.
+    </string>
+
+    <string name="tuli_suit">Tuli Suit</string>
+    <string name="tuli_suit_info">
+        Cuisine: Vegetarian and Non-Vegetarian \n\n
+        Address: At Sakoli, Dist- Bhandara, Maharashtra
+        Tuli Suit is a Resort and situated at Sakoli lake in Sakoli. \n\n
+        Nagzira National Tiger Reserve is just 13 miles away from Tuli Suit.\n\n
+        It has good service, but it expensive in price.\n\n
+        Amenities:\n
+        Pool, Kids and Family Friendly, Restaurant, Bar/Lounge, Spa, Breakfast.
+    </string>
+    <string name="tuli_suit_timing">
+        Working Days: Everyday\t 24 x 7
+    </string>
+
+
+    <string name="royal_plaza">Royal Plaza</string>
+    <string name="royal_plaza_info">
+        Cuisine: Vegetarian and Non-Vegetarian\n\n
+        Address: Bhandara, National Highway No 6, Near Honda Showroom, 
+        Sainath Nagar, Teachers Colony, Ashrafi Nagar, Bhandara, Maharashtra 441906\n\n
+        Website: http://www.omsroyalplaza.com
+    </string>
+    <string name="royal_plaza_timing">
+        \bWorking Days : Everyday\t
+        \b08.00AM\t to 10.00PM
+    </string>
+
+    <string name="kambhoj">Kambhoj Foods</string>
+    <string name="kambhoj_info">
+        Cuisine: Vegetarian and Non-Vegetarian\n\n
+        Kamboj Foods, a multi cuisine family restaurant opened in Bhandara city,
+        with crisp modern design, edgy lighting, experienced staff and the tasty food\n\n
+        Address: Address: Vidarbha Housing Board Colony, MSEB Colony, Bhandara, Maharashtra 441904
+    </string>
+    <string name="kambhoj_timing">
+        \bWorking Days : Everyday\t
+         11.00 AM\t to\t 11.00 PM.
+    </string>
+
+    <string name="stop_inn">STOP INN</string>
+    <string name="stop_inn_info">
+        Cuisine: Vegetarian and Non-Vegetarian\n\n
+        Stop Inn Family Restaurant in Sakoli.A multi cuisine family restaurant
+        synonymous with delicious food that can satiate all food cravings.\n\n
+        Nagzira National Tiger Reserve is just 13 miles away from STOP INN.\n\n
+        Address: National Highway No. 6, Sakoli, Maharashtra 441802
+    </string>
+    <string name="stop_inn_timing">
+        \bWorking Days : Everyday\t
+        09.30 AM\t to\t 8.30 PM.
+    </string>
+
+    <!-- Shopping places and information-->
+    <string name="gandhi_chauk">Gandhi Chauk</string>
+    <string name="gandhi_chauk_info">
+        It is old part of Bhandara city which is famous for shopping.\n
+        It is nearly a mile long road placed with various shops in both sides.
+    </string>
+
+    <string name="sainath_handloom">Sainath Handloom</string>
+    <string name="sainath_handloom_info">
+        It is a best shop for providing various types of handlooms in bhandara city.\n
+        Address: Ram Madir Ward, Santaji Nagar, Bhandara, Maharashtra 441904.
+    </string>
+    <string name="sainath_hadloom_timing">
+        Working Days : Everyday\t 10.00 AM \tto 09.30PM
+    </string>
+
+    <string name="sindhi_lane">Sindhi Lane</string>
+    <string name="sindhi_lane_info">
+        Sindhi Lane is old part of Lakhani city which is famous for shopping.\n\n
+        Address : At Lakhani, Maharashtra 441804.
+    </string>
+
+    <!-- Historical places and their information-->
+    <string name="ambagarh_fort">Ambagarh Fort</string>
+    <string name="ambagarh_fort_info">
+        This medieval period fort is situated in Tumsar taluka in Bhandara and
+        about 8 miles away from tumsarand 33 miles away from Bhandara district.\n\n
+        Fort was constructed by Raja Khan Pathan, the subhedar of Bakht buland shah,
+        the ruler of Devgadh around 1700 A.D.\n\n
+        Later it came under possession of Raja Raghuji Bhosle of Nagpur
+        who used as prison for captives. Later on it had taken over by British.
+    </string>
+
+    <string name="bhandara_old_bridge">Bhandara Old Bridge</string>
+    <string name="bhandara_old_bridge_info">
+        This bridge is developed over wainganga river which is the main source water and fish production in Bhandara District.
+        This bridge was developed by British and presently it is opened.
+    </string>
+
+    <string name="pandey_mahal"> Pandey Mahal</string>
+    <string name="pandey_mahal_info">
+        It is a grand structure that has been a landmark for over 150 years in Bhadara city.\n\n
+        Pandey Mahal, built by Raibahadur Yadaorao Pandey, was considered to be an architectural marvel.\n\n
+        However, Descendants of Pandey have now sold two main portions of the palace, and the buyers have begun to demolish it.
+    </string>
+
+    <string name="sangadi_fort">Sandagi Fort</string>
+    <string name="sangadi_fort_info">
+        The Sangadi Fort is Located at Sakoli Tehsil.\n
+        The fort currently lies in ruins erected by the Divan family of Seoni,
+        which held the two zamindari estates of Gewardha in Chanda and Rajoli in Bhandara.\n\n
+        The fort was called Sahangad or the fort of Sahan, the word meaning the court or small enclosure at the back of a house.\n
+        It is said that the village was so named because it lay right at the extremity of the parganas to the south-east.
+    </string>
+
+    <!-- Travelling Spots and information-->
+    <string name="andhalgaon">Andhalgaon</string>
+    <string name="andhalgaon_info">
+        Andhalgaon also known as Andhalgaon or the dark village, is a village of 5,164
+        inhabitants in 1971 in Bhandara tahsil lying about 16 miles north of Bhandara and
+        connected with Mohali by a good metalled road.\n\n
+        It is one of the principal centers in the district having a considerable weaving industry,
+        silk bordered cloths for women being chiefly produced. \n\n
+        The kosa (silk) cloth for which the district is so well-known has become very costly
+        and hence the demand for it has correspondingly declined.\n\n
+        A weekly marked is held on Wednesdays to which some cattle are also brought for sale.\n
+        Andhalgaon has a primary, an allopathic dispensary, a maternity home, a veterinary aid center,
+        a sarvodaya center, and a library.\n There are also a sub-post office and a police outpost.
+    </string>
+
+    <string name="gaimukh">Gaimukh</string>
+    <string name="gaimukh_info">
+        Gaimukh, one of the small villages, is located in the Bhandara tehsil.\n
+        The village received its name from the rock that resembles a cow’s mouth
+        and brings water to the village through a spring,which flows down from Ambagar.\n\n
+        Renowned for housing a shrine, the village is frequently visited by pilgrims and
+        tourists for viewing a cave temple, which portrays the presence of Kuramvars at the site.
+    </string>
+
+    <string name="indirasagar">Indirasagar</string>
+    <string name="indirasagar_info">
+        Indirasagar dam is an earthfill dam on the Wainganga River near Pauni taluka in Bhandara district
+        in state of Maharashtra in India.\n\n
+        The dam consists of 33 Nos of spillway gates to regulate irrigation water into the river through out the year.\n\n
+        This dam is also known as Gose Khurd Dam because it is situated near Gose village.
+    </string>
+
+    <string name="rawanvadi">Rawanvadi</string>
+    <string name="rawanvadi_info">
+        This place  is famous for a more than hundred year old Temple dedicated to Rama
+        constructed by Shri Sitaram Prasad Dube a resident of Gunthara village on a hillock.\n\n
+        On Ekadashi Amawasya day of kartik month from hindu calendar, religious gathering takes place here.\n\n
+        On the both sides of the tank there is dense forest which has converted it into not only a tourist
+        and  picnic spot but also a bird sanctuary.
+    </string>
+
+    <!-- Forest and their informations-->
+    <string name="koka">Koka</string>
+    <string name="koka_info">
+        Koka is about 30 km from Bhandara which is covered with dense forest.\n
+        The trees in this forest are of the age of 100 years.\n\n
+        Koka is a bird sactuary. Here the lake is famous for Siberian migrant birds.
+        These birds come in the month of December and return in mid of January.
+    </string>
+
+    <string name="nagzira">Nagzira</string>
+    <string name="nagzira_info">
+        Nagzira wildlife sanctuary is located between Bhandara district and Gondia district of Maharashtra.\n\n
+        Nagzira Wildlife Sanctuary is locked in the arms of nature and adorned with a picturesque landscape,
+        luxuriant vegetation and serves as a living outdoor museum to explore and appreciate nature.\n\n
+        Nagzira national park is category second national park by IUCN(International Union for Conservation of Nature).
+    </string>
+    <string name="nagzira_timing">
+        Safari: 06.00 AM \tto\t 10.30 AM and 03.30 PM \tto\t 06.30 PM
+    </string>
+</resources>
